@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.clock{
+  display: flex;
+  gap: 30px;
+}
+
+.clock div{
+  background: #136425cc;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  color: #fff;
+}
+
+h2{
+  font-size: 25px;
+}
+h4{
+  font-size: 16px;
+}
